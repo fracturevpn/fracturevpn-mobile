@@ -1,4 +1,9 @@
-# Node
+---
+
+#### **`.gitignore`** — Node Template
+
+```gitignore
+# Node / Expo
 node_modules/
 .expo/
 .expo-shared/
@@ -20,10 +25,6 @@ android/gradlew
 android/gradlew.bat
 android/local.properties
 android/app/build/
-android/app/src/debug/
-android/app/src/main/res/drawable-*/
-android/app/src/main/res/raw/
-android/app/src/main/assets/
 
 # iOS
 ios/
@@ -31,38 +32,14 @@ ios/Pods/
 ios/Podfile.lock
 ios/build/
 ios/DerivedData/
-ios/*.xcworkspace
-ios/*.xcodeproj/xcshareddata/
-ios/*.xcodeproj/project.xcworkspace/
-ios/*.xcodeproj/xcuserdata/
-
-# Expo
-.expo/
-.expo-shared/
-
-# Yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
-# npm
-package-lock.json
-yarn.lock
 
 # Environment
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 
 # OS
 .DS_Store
@@ -71,6 +48,3 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
